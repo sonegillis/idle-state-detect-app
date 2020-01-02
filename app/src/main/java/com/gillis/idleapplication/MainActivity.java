@@ -30,7 +30,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void myCustomOnClick(View view) {
-        Log.d("CLICK", String.valueOf(view.getId()));
         switch (view.getId()) {
             case R.id.btn_add_amount:
                 mBalance += INCREMENTBY;
